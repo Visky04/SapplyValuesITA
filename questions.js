@@ -13,7 +13,7 @@ questions =  [
     {"id": 11, "question": "Gli appezzamenti di terreno non dovrebbero essere un bene da vendere e comprare.", "effects": {"right": -1}},
     {"id": 12, "question": "Tutte le industrie e le banche dovrebbero essere statalizzate.", "effects": {"right": -1}},
     {"id": 13, "question": "La classe sociale è la principale forma di divisione della società.", "effects": {"right": -1}},
-    {"id": 14, "question": "Le disuguaglianze economiche sono troppo alte nel mondo.", "effects": {"right": -1}},
+    {"id": 14, "question": "Le disuguaglianze economiche sono troppo grandi nel mondo.", "effects": {"right": -1}},
     {"id": 15, "question": "È giusto che il governo spii i cittadini per combattere gli estremismi e il terrorismo.", "effects": {"auth": 1}},
     {"id": 16, "question": "Una figura politica autoritaria, se moralmente corretta, è una buona cosa per la società.", "effects": {"auth": 1}},
     {"id": 17, "question": "Un governo, per avere successo, deve essere tenace.", "effects": {"auth": 1}},
