@@ -1,0 +1,47 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <title>SapplyValues</title>
+    <link rel="icon" type="x-icon" href="icon.png">
+    <link rel="shortcut icon" type="x-icon" href="icon.png">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>SapplyValues</h1>
+    <hr>
+    <img src="" id="banner">
+    <button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Clicca qui per iniziare!</button>
+    
+    <h2>Cos'è SapplyValues?</h2>
+        <p>SapplyValues è un test politico che combina le domande del <a href="http://sapplypoliticalcompass.com/">Sapply test</a>* con la UI di <a href="https://8values.github.io/">8values</a>. Ti verranno presentate delle affermazioni e dovrai rispondere con la tua opinione su esse, scegliento tra 5 opzioni da <b>Fortemente d'accordo</b> a <b>Fortemente in disaccordo</b>, ognuna di queste risposte influenzerà il tuo punteggio. Alla fine del quiz le tue risposte verranno rappresentate su un political compass.<br /><br />
+        Ci sono <b><u><span id="numOfQuestions"></span></u></b> domande in questo test.</p>
+    <h2>Le domande e i risultati non mi piacciono!</h2>
+    <p>¯\_(ツ)_/¯</p>
+    <p>Dovrai parlarne con il creatore originale di questo test, io mi sono occupato della traduzione.</p>
+	<h2>Legal notice</h2>
+    <p>The 8values and 9Axes project licenses grant the rights to "modify, merge, publish, distribute" the software as long as "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software." The included notice can be found <a href="LICENSE.txt">here</a>. This project is released under the same license.</p>
+    
+	<p> Traduzione di Davide Visca <p>
+	
+    <script type="application/javascript" src="questions.js"></script>
+    <script type="text/javascript">
+        document.getElementById("numOfQuestions").innerHTML = questions.length;
+
+        window.onload = function() {
+            var background = new Image();
+            background.onload = function() {
+                var c = document.createElement("canvas");
+                c.width = 1850;
+                c.height = 1300;
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#EEEEEE"
+                ctx.fillRect(0, 0, 1850, 1300);
+                ctx.drawImage(background, 0, 0);
+    
+                document.getElementById("banner").src = c.toDataURL();
+            }
+            background.src = "./compass.png";
+        }
+    </script>
+</body>
