@@ -29,7 +29,7 @@ questions =  [
     {"id": 27, "question": "Lo stato dovrebbe fornire solo servizi di emergenza e di polizia.", "effects": {"auth": -1}},
     {"id": 28, "question": "La polizia è stata creata per mantenere lo status quo con la forza, non per proteggere le persone.", "effects": {"auth": -1}},
     {"id": 29, "question": "Le scuole statali sono una brutta idea perché lo stato non dovrebbe influenzare i nostri figli.", "effects": {"auth": -1}},
-    {"id": 30, "question": "Due individui consenzienti dovrebberi poter fare ciò che vogliono, anche se ciò che fanno mi mette a disagio.", "effects": {"prog": 1}},
+    {"id": 30, "question": "Due individui consenzienti dovrebbero poter fare ciò che vogliono, anche se ciò che fanno mi mette a disagio.", "effects": {"prog": 1}},
     {"id": 31, "question": "Il corpo di una persona è di sua proprietà e ogni persona dovrebbe poter fare ciò che vuole con esso.", "effects": {"prog": 1}},
     {"id": 32, "question": "Una persona dovrebbe essere libera di credere in ciò che vuole.", "effects": {"prog": 1}},
     {"id": 33, "question": "La nudità è naturale.", "effects": {"prog": 1}},
